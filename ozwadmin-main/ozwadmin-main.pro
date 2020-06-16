@@ -28,10 +28,11 @@ unix {
 	packagefiles.output=$$PWD/../scripts/version
 	QMAKE_SUBSTITUTES += packagefiles
 }
-win {
-	packagefiles.input=$$PWD/../scripts/package.nsis.in
-	packagefiles.output=$$PWD/../scripts/package.nsis
+win32 {
+	packagefiles.input=$$PWD\..\scripts\package.nsis.in
+	packagefiles.output=$$PWD\..\scripts\package.nsis
 	QMAKE_SUBSTITUTES += packagefiles
+	message("doing Substitutions")
 }
 
 
