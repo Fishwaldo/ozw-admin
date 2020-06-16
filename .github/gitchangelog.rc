@@ -190,7 +190,7 @@ unreleased_version_label = "(unreleased)"
 ##
 #output_engine = rest_py
 #output_engine = mustache("restructuredtext")
-output_engine = mustache(".mytemplate.tpl")
+output_engine = mustache(".github/changelogtemplate.tpl")
 #output_engine = makotemplate("restructuredtext")
 
 
