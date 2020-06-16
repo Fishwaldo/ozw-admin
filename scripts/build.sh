@@ -6,7 +6,8 @@ git clone https://github.com/OpenZWave/open-zwave.git && cd open-zwave && make -
 cd /opt
 git clone https://github.com/OpenZWave/qt-openzwave.git && cd qt-openzwave && /opt/qt512/bin/qmake -r CONFIG+=release && make -j4 && make install
 cd /opt
-git clone https://github.com/OpenZWave/ozw-admin.git && cd ozw-admin && /opt/qt512/bin/qmake -r CONFIG+=release && make -j4 && make install
+#git clone https://github.com/OpenZWave/ozw-admin.git && cd ozw-admin && /opt/qt512/bin/qmake -r CONFIG+=release && make -j4 && make install
+git clone https://github.com/Fishwaldo/ozw-admin.git && cd ozw-admin && /opt/qt512/bin/qmake -r CONFIG+=release && make -j4 && make install
 cd /opt
 #mkdir -p /opt/AppDir/usr/lib/
 #cp /opt/open-zwave/libopenzwave.so* /opt/AppDir/usr/lib/
