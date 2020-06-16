@@ -12,3 +12,4 @@ SUBDIRS = ozwadmin-widgets devicedb-lib ozwadmin-main
 
 
 ozwadmin-main.depends = qt-openzwave ozwadmin-widgets devicedb-lib
+1
