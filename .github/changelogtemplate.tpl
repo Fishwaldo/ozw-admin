@@ -1,13 +1,8 @@
-{{#general_title}}
-# {{{title}}}
-
-
-{{/general_title}}
 {{#versions}}
-## {{{label}}}
+# {{{label}}}
 
 {{#sections}}
-### {{{label}}}
+## {{{label}}}
 
 {{#commits}}
 * {{{subject}}} - {{commit.sha1_short}}  [{{{author}}}]
