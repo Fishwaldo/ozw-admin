@@ -1,5 +1,5 @@
 {{#versions}}
-# {{{label}}}
+{{{label}}}
 
 {{#sections}}
 ## {{{label}}}
