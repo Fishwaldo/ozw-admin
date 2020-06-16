@@ -1,6 +1,6 @@
 ; ===== Defines =====
 !define APPLICATION_NAME "OpenZwave Admin"
-!define APPLICATION_VERSION "0.1.0"
+!define APPLICATION_VERSION "$$VERSION"
 !define COMPANY "OpenZWave"
 !define PROJECT_ROOT "."
 

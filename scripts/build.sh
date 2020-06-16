@@ -22,7 +22,8 @@ mkdir -p /opt/AppDir/usr/share/metainfo/
 #cp /opt/ozw-admin/scripts/ozwadmin.appdata.xml /opt/AppDir/usr/share/metainfo/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib64
 export QMAKE=/opt/qt512/bin/qmake
-export VERSION=0.1
+export VERSION=$(cat /opt/ozw-admin/scripts/version)
+echo $VERSION
 cd /opt && ./linuxdeploy-x86_64.AppImage --appdir AppDir --plugin qt --output appimage -d ozw-admin/scripts/ozwadmin.desktop -i ozw-admin/scripts/ozwadmin.png
 #cd ozw-admin && ../linuxdeploy-x86_64.AppImage --appdir AppDir -e ozwadmin --plugin qt --output appimage -d scripts/ozwadmin.desktop -i scripts/ozwadmin.png
 cp /opt/OZWAdmin-*.AppImage /opt/buildfiles/
