@@ -28,4 +28,6 @@ echo $VERSION
 cd /opt && ./linuxdeploy-x86_64.AppImage --appdir AppDir --plugin qt --output appimage -d ozw-admin/scripts/ozwadmin.desktop -i ozw-admin/scripts/ozwadmin.png
 #cd ozw-admin && ../linuxdeploy-x86_64.AppImage --appdir AppDir -e ozwadmin --plugin qt --output appimage -d scripts/ozwadmin.desktop -i scripts/ozwadmin.png
 cp /opt/OZWAdmin-*.AppImage /opt/buildfiles/
+cp /opt/ozw-admin/scripts/version /opt/buildfiles/
 chown $DOCKERUSERID:$DOCKERGROUPID /opt/buildfiles/OZWAdmin-*.AppImage
+chown $DOCKERUSERID:$DOCKERGROUPID /opt/buildfiles/version
